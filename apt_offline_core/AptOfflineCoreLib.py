@@ -2986,7 +2986,7 @@ def main():
     parser_set.add_argument(
         "--upgrade-type",
         dest="upgrade_type",
-        help="Type of upgrade to do. Use one of upgrade, dist-upgrade, dselect-ugprade",
+        help="Type of upgrade to do. Use one of upgrade, dist-upgrade, dselect-upgrade",
         action="store",
         type=str,
         metavar="upgrade",
